@@ -39,3 +39,25 @@ body {
     color: #212b36;
     border: 1px solid #fff;
 }
+
+/*Widget*/
+.widget {
+    border-radius: 1rem;
+    background-color: #1a222b;
+}
+
+/*Grid*/
+.e-grid{
+    border:0;
+    border-radius: 5px;
+}
+/*Button*/
+.btn:focus, .btn:active{
+    outline:none !important;
+    box-shadow:none
+}
+/*HyperLink*/
+.no-a-decoration, .no-a-decoration:hover{
+    text-decoration:none;
+    color:inherit;
+}
